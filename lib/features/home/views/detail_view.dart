@@ -130,8 +130,8 @@ class DetailView extends StatelessWidget {
                     init: cartCtrl,
                     builder: (ctrl) {
                       return ElevatedButton.icon(
-                        onPressed: () {
-                          // Go directly to checkout
+                        onPressed: () async {
+                          await homeCtrl.addToCart(item);
                           Get.toNamed('/cart');
                         },
                         icon: const Icon(Icons.check_rounded, size: 20),
