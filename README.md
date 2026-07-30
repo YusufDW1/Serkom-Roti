@@ -27,7 +27,7 @@ Roti Saku memungkinkan pelanggan melihat katalog roti/kue, melakukan pembelian m
 
 ## Struktur Project
 
-```text
+```
 lib/
 ├── main.dart
 ├── app/
@@ -61,7 +61,7 @@ flutter build apk --release
 ```
 
 Output:
-```text
+```
 build\app\outputs\flutter-apk\app-release.apk
 ```
 
@@ -70,6 +70,17 @@ build\app\outputs\flutter-apk\app-release.apk
 - SQLite: menyimpan data cart secara lokal di device
 - Firebase Firestore: menyimpan data pesanan secara permanen
 
-## Screenshot Dokumentasi
+## Dokumentasi Screenshot
 
-Lihat dokumentasi submit untuk screenshot login, dashboard, menu, dan fitur utama.
+| No | Fitur | Tujuan |
+|----|-------|--------|
+| 1 | Login | Autentikasi customer/admin |
+| 2 | Registrasi | Pembuatan akun baru |
+| 3 | Home/Menu | Katalog produk dan navigasi utama |
+| 4 | Detail Produk | Informasi roti, harga, dan aksi pesan |
+| 5 | Keranjang | Daftar item yang akan dibeli |
+| 6 | Checkout | Form pesan dan pengambilan GPS |
+| 7 | Pesanan Berhasil | Konfirmasi setelah checkout |
+| 8 | Histori Pesanan | Riwayat pesanan customer |
+| 9 | Admin Dashboard | Manajemen status pesanan |
+| 10 | Profil | Informasi akun dan logout |
