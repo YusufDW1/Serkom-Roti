@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "383108680820",
+    "project_id": "rotisaku-60592",
+    "storage_bucket": "rotisaku-60592.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383108680820:android:490d07f6511eca797bd521",
+        "android_client_info": {
+          "package_name": "com.example.roti_saku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtr8Cn0No-6byOcGts2i3mDwL4ZxbQ0qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383108680820:android:1260d01b845682e27bd521",
+        "android_client_info": {
+          "package_name": "com.rotisaku.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtr8Cn0No-6byOcGts2i3mDwL4ZxbQ0qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
