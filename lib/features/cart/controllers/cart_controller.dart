@@ -33,6 +33,10 @@ class CartController extends GetxController {
     total.value = await _dbHelper.getTotal();
   }
 
+  Future<void> refreshCart() async {
+    await _loadCart();
+  }
+
   Future<void> updateQuantity(String productId, int newQty) async {
     await _dbHelper.updateQuantity(productId, newQty);
     await _loadCart();

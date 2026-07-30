@@ -132,6 +132,7 @@ class DetailView extends StatelessWidget {
                       return ElevatedButton.icon(
                         onPressed: () async {
                           await homeCtrl.addToCart(item);
+                          await ctrl.refreshCart();
                           Get.toNamed('/cart');
                         },
                         icon: const Icon(Icons.check_rounded, size: 20),
