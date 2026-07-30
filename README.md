@@ -69,7 +69,6 @@ build\app\outputs\flutter-apk\app-release.apk
 
 - SQLite: menyimpan data cart secara lokal di device
 - Firebase Firestore: menyimpan data pesanan secara permanen
-- Konfigurasi Firebase: lihat `firebase_options.dart` dan `android/app/google-services.json`
 
 ## Screenshot Dokumentasi
 
