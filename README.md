@@ -69,18 +69,3 @@ build\app\outputs\flutter-apk\app-release.apk
 
 - SQLite: menyimpan data cart secara lokal di device
 - Firebase Firestore: menyimpan data pesanan secara permanen
-
-## Dokumentasi Screenshot
-
-| No | Fitur | Tujuan |
-|----|-------|--------|
-| 1 | Login | Autentikasi customer/admin |
-| 2 | Registrasi | Pembuatan akun baru |
-| 3 | Home/Menu | Katalog produk dan navigasi utama |
-| 4 | Detail Produk | Informasi roti, harga, dan aksi pesan |
-| 5 | Keranjang | Daftar item yang akan dibeli |
-| 6 | Checkout | Form pesan dan pengambilan GPS |
-| 7 | Pesanan Berhasil | Konfirmasi setelah checkout |
-| 8 | Histori Pesanan | Riwayat pesanan customer |
-| 9 | Admin Dashboard | Manajemen status pesanan |
-| 10 | Profil | Informasi akun dan logout |
